@@ -7,81 +7,258 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Baloo+Bhai+2&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <Headers class="Headers">
-        <Link to="/">
-        <img class="header__logo" src="../assets/logo1.png" alt="Loading" />
-        </Link>
-        <div>
-            <LocationOnOutlinedIcon class="header__location" />
-        </div>
-        <div class="header__option">
-            <span class="header__optionlineOne"><i class="fa-solid fa-location-pin"></i>&nbsp; Hello </span>
-            <span class="header__optionlineTwo"><strong>Select your address</strong></span>
-        </div>
-
-        <div class="header__search">
-            <input type="text" class="header__searchInput" placeholder="Search For Watches" />
-            <button class="header__searchIcon"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-        </div>
-
-        <div class="header__nav">
-            <Link to="/Login">
-            <div class="header__option">
-                <span class="header__optionlineOne">Hello</span>
-                <div class="header__optionlineTwo">Guest</div>
-            </div>
-            </Link>
-
-
-            <div class="header__option">
-                <span class="header__optionlineOne">Returns</span>
-                <span class="header__optionlineTwo">& Orders</span>
+    <div class="container">
+        <div class="block">
+            <div class="nav">
+                <div class="left">
+                    <img width="75" src="../assets/logo1.png" alt="">
+                </div>
+                <div class="mid">
+                    <input type="search" placeholder="Search for products, brands and more">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="Navigation">
+                    <li><a href="#"><i class="fas fa-home-alt"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-book-alt"></i> About</a></li>
+                    <li><a href="#"><i class="fas fa-address-book"></i> Contact</a></li>
+                    <li><a href="#"><i class="fas fa-store-alt"></i> Shop</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+                </div>
             </div>
 
+        </div>
 
-            <div class="header__option">
-                <span class="header__optionlineOne">Your</span>
-                <span class="header__optionlineTwo">Prime</span>
+        <div class="lists">
+            <section class="Men bx">
+                <p class="first ps">MEN <i class="fa-sharp fa-solid fa-angle-up"></i></p>
+            </section>
+            <section class="Women bx">
+                <p class="ps">WOMEN <i class="fa-sharp fa-solid fa-angle-up"></i></p>
+            </section>
+            <section class="Unisex bx">
+                <p class="ps">UNISEX <i class="fa-sharp fa-solid fa-angle-up"></i></p>
+            </section>
+            <section class="Fashion bx">
+                <p class="ps">FASHION <i class="fa-sharp fa-solid fa-angle-up"></i></p>
+            </section>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/files/Couple_1920x667_c26e26da-a37d-4e24-9c8e-ad815e1e4950.jpg?v=1641811299"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/files/Aspen_1920_x_667_px.jpg?v=1642580133"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/files/Tissort_1920_x_667_px.jpg?v=1638343279"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4/ 4</div>
+                <img src="https://cdn.shopify.com/s/files/1/0046/3454/2129/files/1920x667_-_Copy.jpg?v=1661331115"
+                    style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+
+        <div class="collection">
+            <div class="Name">Our Collection</div>
+            <hr>
+
+            <div class="titan-collct">
+                <div class="img1">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/1a26b3c9-ab1c-4875-972c-d3b8c7ba37bf/Edge-ceramic.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-1a26b3c9-ab1c-4875-972c-d3b8c7ba37bf-o8BGDd9" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/17648765-637e-4abc-b9eb-ea5feca49471/GrandMaster_400x583+%281%29.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-17648765-637e-4abc-b9eb-ea5feca49471-oaArICu" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/193eb44b-913f-4dcd-b0e2-4cc3f70f687c/740x1080.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-193eb44b-913f-4dcd-b0e2-4cc3f70f687c-o8BIs78" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/3d42747b-5f76-4418-acf3-c37a67196b47/740x1080_maritime.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-3d42747b-5f76-4418-acf3-c37a67196b47-o8BIJr9" />
+                </div>
+            </div>
+
+            <div class="titan-collct">
+                <div class="img1">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/da2e79a0-e468-421f-b153-fdb2186c5fbd/Ashvi_740x1080-min.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-da2e79a0-e468-421f-b153-fdb2186c5fbd-o8BJcPG" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/e2045312-3100-452e-ad1f-d142be3a3997/740x1080.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-e2045312-3100-452e-ad1f-d142be3a3997-o8BKiRm" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/0b38876c-43f9-44dd-a7b7-c3d321375a82/Xylys_740x1080.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-0b38876c-43f9-44dd-a7b7-c3d321375a82-o8BMoxh" />
+                </div>
+
+                <div class="img2">
+                    <img
+                        src="https://www.titan.co.in/wps/wcm/connect/titanrt/1137beef-dcc0-413c-b4b8-491876e8f46d/Nebula%2BJewels_740x1080.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-1137beef-dcc0-413c-b4b8-491876e8f46d-o8BMYHq" />
+                </div>
             </div>
         </div>
-        <Link to="/checkout" class="header__cart">
-        <i style="color: white; font-size: 20px;" class="fa-sharp fa-solid fa-cart-shopping"></i><span
-            style="color: white;">Cart</span>
-        </Link>
-    </Headers>
 
-    <carousel class="container grid-lg mt-2 mb-2">
-        <div class="splide" id="'splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <img sre="../assets/logo.png" width="100%" />
-                    </li>
-                    <li class="splide__slide">
-                        <img sre="images/image0l.jpg" width="100%" />
-                    </li>
-                    <li class="splide___slide">
-                        <img sre="images/image01. Ipg" width="100%" />
-                        </1i>
-                    <li class="splide __slide">
-                        <img sre="images/image01.jpg" width="100%" />
-                    </li>
-                </ul>
+
+        <div class="watches">
+            <div class="f-wtch">Fastrack Watches</div>
+            <hr>
+            <div class="clock">
+                <div class="All-w">
+                    <div class="fst-img">
+                        <img src="https://www.swisstimehouse.com/134068-home_default/fastrack-38024pp25.jpg" />
+                    </div>
+                    <div>
+                        <div class="watch-n">Fastrack <p class="price">₹ 1850</p></div>
+                        <div class="ano">Bare Basics<p class="star" style="color: green;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <div class="ano1">NK3117SM01 <button class="btn">Buy Now</button></div>
+                        
+                    </div>
+                </div>
+
+                <div class="All-w">
+                    <div class="fst-img">
+                        <img src="https://www.swisstimehouse.com/132718-home_default/fastrack-nk3117sm02.jpg" />
+                    </div>
+
+                    <div class="watch-n">Fastrack<p class="price">₹ 1690</p></div>
+                    <div class="ano">Bare Basics<p class="star" style="color: green;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <div class="ano1">NK3117SM01 <button class="btn">Buy Now</button></div>
+                </div>
+
+                <div class="All-w">
+                    <div class="fst-img">
+                        <img src="https://www.swisstimehouse.com/106371-home_default/fastrack-3254nm01.jpg" />
+                    </div>
+                    <div class="watch-n">Fastrack<p class="price">₹ 2550</p></div>
+                    <div class="ano">Bare Basics<p class="star" style="color: green;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <div class="ano1">NK3117SM01 <button class="btn">Buy Now</button></div>
+                    
+                </div>
+
+                <div class="All-w">
+                    <div class="fst-img">
+                        <img src="https://www.swisstimehouse.com/131086-home_default/fastrack-nk3130sl02.jpg" />
+                    </div>
+                    <div class="watch-n">Fastrack<p class="price">₹ 2850</p></div>
+                    <div class="ano">Animal Instinct<p class="star" style="color: green;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p></div>
+                    <div class="ano1">NK3117SM01 <button class="btn">Buy Now</button></div>
+                    
+                </div>
             </div>
         </div>
-    </carousel>
+
+        <div class="style">
+            <div class="c-style">Choose Your Style</div>
+
+            <div class="c-s">
+                <div class="ro">
+                    <div class="image">
+                        <img
+                            src="https://cdn.helioswatchstore.com/production/media/wysiwyg/chooseyourstyle_desktop1.jpg" />
+                    </div>
+                    <div class="n-m">Glorious Gem-Blue For Men</div>
+                </div>
+
+                <div class="ro">
+                    <div class="image">
+                        <img
+                            src="https://cdn.helioswatchstore.com/production/media/wysiwyg/chooseyourstyle_desktop3.jpg" />
+                    </div>
+                    <div class="n-m">Bossy Black Men's Watches</div>
+                </div>
+
+                <div class="ro">
+                    <div class="image">
+                        <img
+                            src="https://cdn.helioswatchstore.com/production/media/wysiwyg/Desktop_matchyouroutfit3.jpg" />
+                    </div>
+                    <div class="n-m">Bold And Fearless Range</div>
+                </div>
+
+                <div class="ro">
+                    <div class="image">
+                        <img
+                            src="https://cdn.helioswatchstore.com/production/media/wysiwyg/Desktop_matchyouroutfit1.jpg" />
+                    </div>
+                    <div class="n-m">Radiant Rosegold For Women</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="https://cdn.helioswatchstore.com/production/media/slideshow/cache/1300x300/garminbanner.jpg" />
+        </div>
+
+
 </body>
 <script src="https://kit.fontawesome.com/8775457e96.js" crossorigin="anonymous"></script>
 <script>
-    new splide('#splide',{
-        type: 'loop',
-        perPage: 1,
-        autoplay: true,
-        lazyload: 'nearby'
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-    }.mount());
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
 </script>
+
 </html>

@@ -28,32 +28,7 @@
 max-width: 100%;
 max-height: 100%;
 }
-.Navigation{
-    list-style: none;
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
-    align-items: center;
-}
-.Navigation li a{
-    text-decoration: none;
-    color:white;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 8px;
-    transition: 0.3s all ease-in;
-    margin-right: 8px;
-}
-li:hover a{
-    color: #53bd53;
-}
-.Navigation li{
-    transition: 0.3s all ease-in;
-    color: #53bd53;
-}
-li:hover {
-    transform: scale(1.1);
-}
+
 .Nav-btn{
     display: flex;
     justify-content: space-around;
