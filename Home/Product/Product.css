@@ -110,7 +110,6 @@ padding-top: 23px;
 
 
 .shirt{
-   
     padding-top: 14px;
 }
 
@@ -669,29 +668,6 @@ padding-top: 23px;
 .myntraweb{
     margin-left: 3px;
 }
-
-.bar{
-    border: 1px solid grey;
-    padding: 12px 11px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    color: #ff3e6c;
-    font-size: 15px;
-    cursor: pointer;
-    margin: 1px 25px;
-}
-
-.ki{
-    font-size: 20px;
-    padding-top: 5px;
-    margin: 0px 7px;
-}
-
-.bar:hover{
-    border: 1px solid #ff3e6c;
-}
-
 
 .ws{
     padding-top: 15px;
