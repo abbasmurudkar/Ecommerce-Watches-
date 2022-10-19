@@ -48,6 +48,14 @@ input[type="text"]{
     padding: 5px;
     font-size: 15px;
 }
+input[type="email"]{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #53bd53;
+    padding: 5px;
+    font-size: 15px;
+}
 input[type="password"]{
     outline: none;
     border: none;

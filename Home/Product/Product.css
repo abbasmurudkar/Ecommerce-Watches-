@@ -27,7 +27,7 @@ padding-top: 23px;
 
 .image-grid-image:hover{
     transform: scale(1.1); 
-    -ms-transform: scale(1.1); /* IE 9 */
+    -ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1);
 }
 
@@ -676,8 +676,14 @@ padding-top: 23px;
     font-weight: 500px;
     margin-left: 15px;
 }
-
-
 .don{
     padding: 15px;
 }
+
+
+
+
+
+
+
+

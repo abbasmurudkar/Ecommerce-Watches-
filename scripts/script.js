@@ -12,6 +12,7 @@ document.getElementById('icons').className="fa-solid fa-lock"
 
 }
 }
+
 function ConfirmPassword(){
     if(Confirm.type==="password"){
         Confirm.setAttribute("type","text")
@@ -22,13 +23,34 @@ function ConfirmPassword(){
         document.getElementById('icon').className="fa-solid fa-lock"
         }
 }
+
 function login(){
-    alert("Successfully login");
+  const form = document.getElementById('form')
+  const email= document.querySelector('#gmail').value
+  const password = document.querySelector('#password').value
+  const cspassword = document.querySelector('#cs-password').value
+      form = form.addEventListener('submit',(e)=>{
+        let message = []
+       if(email === '' || email == null){
+        message.push("Error Mail Cannot Be Blank")
+       }
+       if(password != cspassword){
+        message.push("Error Confirm Passowrd and Password should be same")
+       }
+       if(password<=4)
+       {
+        message.push("Password should be Greater than length of 6")
+       }
+       if(message.length > 0){
+        e.preventDefault()
+        document.getElementById('Message').innerHTML = message.join(',<br> ')
+       }
+      })
 }
 function Register(){
-    alert("Successfully Register")
-}
+ const name = document.querySelector('#name').value;
 
+}
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -55,3 +77,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+

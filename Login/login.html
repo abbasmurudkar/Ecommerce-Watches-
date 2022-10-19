@@ -21,12 +21,13 @@
                     <p1 id="par2">Get to your Orders,<br>Whislist and Recommendations</p1>
                     <img src="../assets/logo1.png" alt="error">
                 </div>
-                <div class="form">
-                    <label for="gmail" id="mail">Enter Email/Mobile number</label>
-                    <input type="text" id="gmail" name="my gamil" placeholder="">
+                <form class="form" id="form" method="get" action="../Home/Home.html">
+                    <label for="gmail" id="mail">Enter Email</label>
+                    <input type="email" id="gmail" name="my gamil" placeholder="">
                     <label for="password" id="pass">Enter Password</label>
                     <input type="password" id="password" name="my Password" placeholder="">
-                    <!-- <div class="icon" onclick="ConfirmPassword()"><i class="fa-solid fa-lock"></i></div> -->
+                    <label for="cs-password" id="pass2">Enter Confirm Password</label>
+                    <input type="password" id="cs-password" name="my Password" placeholder="">
                     <p>By continuing, you agree to Flipkart<span> Terms of Use</span> and <span>Privacy Policy</span>
                     </p>
                     <a href="../Home/Home.html"><button onclick="login()">Login</button></a>
@@ -34,7 +35,8 @@
                     <button id="btn"> Request OTP</button>
                     <a href="../Register/Register.html"><p id="para2">New to Wacthes? Create an account</p></a>
                     <p id="forget">Forget?</p>
-                </div>
+                </form>
+                <p id="Message"></p>
             </div>
         </div>
     </div>

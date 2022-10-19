@@ -39,8 +39,7 @@
                 <button class="btn b-btn">DISCOVER</button>
             </section>
         </div>
-        <div class="downwards"
-            style="font-size: 45px; color: white; cursor: pointer; width:50px; position: relative; left: 700px; top: -100px; width: 50px; display: flex; justify-content: center; border-radius: 50%;">
+        <div id="downwards" onclick="scrollWin()" style="font-size: 45px; color: white; cursor: pointer; width:50px; position: relative; left: 700px; top: -100px; width: 50px; display: flex; justify-content: center; border-radius: 50%;">
             <p>⌄</p>
         </div>
     </div>
@@ -217,5 +216,12 @@
     </div>
 </div>
 </body>
-
+<script>
+function scrollWin() {
+  window.scrollTo({
+    top:2000,
+    left:0,
+    behavior:"smooth"
+  });}
+</script>
 </html>

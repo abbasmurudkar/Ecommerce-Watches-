@@ -235,7 +235,7 @@ box-shadow: 10px 10px 20px grey;
 .card:hover .items{
     transform: scale(0.9);
 }
-.downwards{
+#downwards{
     animation-name: down;
     animation-duration: 0.9s;
     animation-fill-mode: forwards;

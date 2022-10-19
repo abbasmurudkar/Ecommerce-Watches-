@@ -99,7 +99,15 @@ input:focus{
     top: 120px;
     left: 35px;
 }
-#password{
+.form #pass2{
+    color: gray;
+    color: gray;
+    font-size: 14px;
+    position: absolute;
+    top: 180px;
+    left: 35px;
+}
+#password,#cs-password{
     position: absolute;
     top: 140px;
     left: 35px;
@@ -108,11 +116,14 @@ input:focus{
     border: none;
     border-bottom: 2px solid #53bd53;
 }
+#cs-password{
+    top: 200px;
+}
 .form p{
     font-size: 12px;
     color: gray;
     position: relative;
-    top: 180px;
+    top: 220px;
     left: 35px;
 }
 .form span{
@@ -120,7 +131,7 @@ input:focus{
     cursor: pointer;
 }
 .form button{
-    top: 200px;
+    top: 250px;
     position: relative;
     left: 35px;
     width: 80%;
@@ -133,7 +144,7 @@ input:focus{
     cursor: pointer;
 }
 #PAR{
-    top: 215px;
+    top: 270px;
     left: 235px;
   font-size: 14px;
   display: block;
@@ -142,7 +153,7 @@ input:focus{
     background: white;
     color: black;
     box-shadow: 0px 2px 4px grey;
-    top: 230px;
+    top: 300px;
     display: block;
 }
 #para2{
@@ -164,4 +175,29 @@ color:#53bd53;
 }
 .icon {
     position: relative;
+}
+
+#Message{
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+    animation-name: drop-down;
+    animation-duration: 2s;
+    animation-fill-mode:backwards;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+@keyframes drop-down {
+    0%{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    500%{
+        transform: translateY(100%);
+        opacity: 1;
+    }
 }
