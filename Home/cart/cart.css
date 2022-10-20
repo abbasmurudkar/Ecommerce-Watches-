@@ -76,8 +76,12 @@ padding: 10px
     font-size: 18px;
 }
 span2{
-    margin-left: 240px;
     color: green;
+}
+span{
+    margin-left: 300px;
+    color: green;
+
 }
 .block1{
     border: 2px solid grey;
